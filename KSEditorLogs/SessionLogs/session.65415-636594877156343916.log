@@ -23,3 +23,71 @@
 2018-04-16 15:01:59.0003 [DEBUG] Uploading scene 'Untitled'
 2018-04-16 15:01:59.0640 [DEBUG] Spawn request. (Objects: 1)
 2018-04-16 15:01:59.2008 [DEBUG] Loading complete
+2018-04-16 15:05:46.3355 [DEBUG] Refresh token (6tX5YktB0RdnMH4LTKugEmK8WmjGTx8QlI9JWqDSoFO3PPwTfnjH21fdCP3sZsBk8IAGOZkcxNKWuMwSFxHzXYxXfGF0ndQowSpbXItlxiBiaowpm3EL1g4nIaPtxBagD0FQde4k1hGEmgWpEMz7T1I9zdd1DfDyS4b35DQy4jht2ysBT9gWTXcy1D43QyeIkmgYdhCNge4GjHwg4q5AlfjtgdpjMCX1I1l1TxyFW92npxuNDgTJP3gyzPxmMZN) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-04-16 15:05:46.6866 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-04-16 15:05:46.6876 [DEBUG] Disconnecting from room (65415:SceneFusion:SceneFusion)
+2018-04-16 15:05:46.6926 [INFO] Disconnected from server.
+2018-04-16 15:05:46.6931 [DEBUG] Disconnect. (Duration: 230)
+2018-04-16 15:05:46.9061 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-04-16 15:05:49.4831 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-16 15:05:49.5635 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-16 15:05:49.6312 [DEBUG] Connecting to room (65415:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-04-16 15:05:49.6502 [DEBUG] Host connection. (Session: 65415)
+2018-04-16 15:05:49.8257 [DEBUG] Validating model...
+2018-04-16 15:05:49.9059 [DEBUG] Model validated
+2018-04-16 15:05:49.9069 [DEBUG] Authenticating with server...
+2018-04-16 15:05:50.0203 [DEBUG] Connected to room. (65415:SceneFusion:SceneFusion)
+2018-04-16 15:05:50.0385 [INFO] Connected to server.
+2018-04-16 15:05:50.0385 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-04-16 15:05:50.0385 [DEBUG] Unity Version : 2017.3.1f1
+2018-04-16 15:05:50.0385 [DEBUG] Pro License : False
+2018-04-16 15:05:50.0390 [DEBUG] Platform : WindowsEditor
+2018-04-16 15:05:50.0390 [DEBUG] Build Target : StandaloneWindows64
+2018-04-16 15:05:50.0390 [DEBUG] Scene Fusion version : 1.7.2
+2018-04-16 15:05:50.0390 [DEBUG] Scene Fusion client build : 0
+2018-04-16 15:05:50.0390 [DEBUG] User : teaguefcs@gmail.com
+2018-04-16 15:05:50.1316 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-04-16 15:05:50.1321 [DEBUG] User Permissions: FFFFFFFF
+2018-04-16 15:05:50.2525 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-04-16 15:05:50.2525 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-04-16 15:05:50.2525 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-04-16 15:05:50.2525 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-04-16 15:05:50.2530 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-04-16 15:05:50.2530 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-04-16 15:05:50.7072 [DEBUG] Play mode: False
+2018-04-16 15:05:50.7804 [DEBUG] Loading complete
+2018-04-16 15:05:52.7919 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-04-16 15:05:52.7924 [DEBUG] Disconnecting from room (65415:SceneFusion:SceneFusion)
+2018-04-16 15:05:52.8109 [INFO] Disconnected from server.
+2018-04-16 15:05:52.8109 [DEBUG] Disconnect. (Duration: -37)
+2018-04-16 15:05:52.8335 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-04-16 15:05:55.1847 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-16 15:05:55.2093 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-16 15:05:55.2790 [DEBUG] Connecting to room (65415:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-04-16 15:05:55.2970 [DEBUG] Host connection. (Session: 65415)
+2018-04-16 15:05:55.4571 [DEBUG] Validating model...
+2018-04-16 15:05:55.5428 [DEBUG] Model validated
+2018-04-16 15:05:55.5438 [DEBUG] Authenticating with server...
+2018-04-16 15:05:55.6631 [DEBUG] Connected to room. (65415:SceneFusion:SceneFusion)
+2018-04-16 15:05:55.6891 [INFO] Connected to server.
+2018-04-16 15:05:55.6896 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-04-16 15:05:55.6896 [DEBUG] Unity Version : 2017.3.1f1
+2018-04-16 15:05:55.6896 [DEBUG] Pro License : False
+2018-04-16 15:05:55.6901 [DEBUG] Platform : WindowsEditor
+2018-04-16 15:05:55.6901 [DEBUG] Build Target : StandaloneWindows64
+2018-04-16 15:05:55.6901 [DEBUG] Scene Fusion version : 1.7.2
+2018-04-16 15:05:55.6901 [DEBUG] Scene Fusion client build : 0
+2018-04-16 15:05:55.6901 [DEBUG] User : teaguefcs@gmail.com
+2018-04-16 15:05:55.7438 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-04-16 15:05:55.7438 [DEBUG] User Permissions: FFFFFFFF
+2018-04-16 15:05:55.8656 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-04-16 15:05:55.8656 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-04-16 15:05:55.8656 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-04-16 15:05:55.8661 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-04-16 15:05:55.8661 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-04-16 15:05:55.8661 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-04-16 15:05:56.2111 [DEBUG] Play mode: False
+2018-04-16 15:05:56.2773 [DEBUG] Loading complete
+2018-04-16 15:10:41.4390 [DEBUG] Disconnecting from room (65415:SceneFusion:SceneFusion)
+2018-04-16 15:10:41.4445 [INFO] Disconnected from server.
+2018-04-16 15:10:41.4445 [DEBUG] Disconnect. (Duration: 245)
