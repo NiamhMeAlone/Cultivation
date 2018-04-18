@@ -1,0 +1,9 @@
+2018-04-18 09:42:40.9987 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-18 09:42:45.9406 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-18 09:44:36.0092 [INFO] Launching Scene: Main
+2018-04-18 09:44:36.6668 [DEBUG] Connecting
+2018-04-18 09:44:36.6974 [DEBUG] Connecting to room (65687:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-04-18 10:17:40.2702 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-18 10:17:43.6778 [INFO] Launching Scene: Main
+2018-04-18 10:17:44.4717 [DEBUG] Connecting
+2018-04-18 10:17:44.5002 [DEBUG] Connecting to room (65694:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025

@@ -1,0 +1,44 @@
+2018-04-18 09:44:36.8659 [DEBUG] Validating model...
+2018-04-18 09:44:36.9575 [DEBUG] Model validated
+2018-04-18 09:44:36.9587 [DEBUG] Authenticating with server...
+2018-04-18 09:44:37.3102 [DEBUG] Connected to room. (65687:SceneFusion:SceneFusion)
+2018-04-18 09:44:37.3467 [INFO] Connected to server.
+2018-04-18 09:44:37.3472 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-04-18 09:44:37.3472 [DEBUG] Unity Version : 2017.3.1f1
+2018-04-18 09:44:37.3477 [DEBUG] Pro License : False
+2018-04-18 09:44:37.3482 [DEBUG] Platform : WindowsEditor
+2018-04-18 09:44:37.3498 [DEBUG] Build Target : StandaloneWindows64
+2018-04-18 09:44:37.3498 [DEBUG] Scene Fusion version : 1.7.2
+2018-04-18 09:44:37.3502 [DEBUG] Scene Fusion client build : 0
+2018-04-18 09:44:37.3502 [DEBUG] User : teaguefcs@gmail.com
+2018-04-18 09:44:37.3502 [DEBUG] Waiting for server response
+2018-04-18 09:44:37.5931 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-04-18 09:44:37.5936 [DEBUG] User Permissions: FFFFFFFF
+2018-04-18 09:44:40.5546 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-04-18 09:44:40.5546 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-04-18 09:44:40.5546 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-04-18 09:44:40.5551 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-04-18 09:44:40.5551 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-04-18 09:44:40.5551 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-04-18 09:44:40.9212 [DEBUG] Uploading scene 'Main'
+2018-04-18 09:44:41.0591 [DEBUG] Spawn request. (Objects: 1)
+2018-04-18 09:44:41.2902 [DEBUG] Loading complete
+2018-04-18 09:46:01.1047 [DEBUG] Spawn request. (Objects: 4)
+2018-04-18 09:50:32.0909 [DEBUG] Refresh token (NU4f3F2ccjJjWgH7wLuwUE146R3YcWhzZQYwd9ABzMYsSc0ufSWtIpN1ejdxSkCupDiQATEP1DJjLWWQs8sBbL7eXfZxh0PF41Ms5fScPdrddFHjJxDn3opeCifPUrHMEpiePYbArgGKxdI0Ina5boO22eifHiAHhBNXneOi3n0qiwRRDYCldTa41hDUglSfjUz2ezqzmACCgmWpLKXShw6m4ayfl8QiWpOcbq2fTglcHtgeiysnw4obTMl9dJ1) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-04-18 09:52:34.2157 [DEBUG] Spawn request. (Objects: 1)
+2018-04-18 09:55:22.7180 [DEBUG] Spawn request. (Objects: 2)
+2018-04-18 09:55:55.0371 [DEBUG] Spawn request. (Objects: 2)
+2018-04-18 10:12:11.0445 [DEBUG] Disconnecting temporarily to recompile.
+2018-04-18 10:12:11.0460 [DEBUG] Disconnecting from room (65687:SceneFusion:SceneFusion)
+2018-04-18 10:12:11.0651 [INFO] Disconnected from server.
+2018-04-18 10:12:11.0651 [DEBUG] Disconnect. (Duration: 1653)
+2018-04-18 10:12:23.2695 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-18 10:12:23.8816 [DEBUG] Property changes detected after recompile. Will not reconnect.
+2018-04-18 10:12:23.9183 [DEBUG] Connecting to room (65687:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-04-18 10:12:24.0905 [DEBUG] Validating model...
+2018-04-18 10:12:24.1756 [DEBUG] Model validated
+2018-04-18 10:12:24.1762 [DEBUG] Authenticating with server...
+2018-04-18 10:12:24.2851 [DEBUG] Authentication with the remote host failed. (65687:SceneFusion:SceneFusion)
+2018-04-18 10:12:26.3833 [DEBUG] Connection Failed. (65687:SceneFusion:SceneFusion)
+2018-04-18 10:12:32.3305 [DEBUG] Connection Failed. (65687:SceneFusion:SceneFusion)
+2018-04-18 10:16:24.1768 [DEBUG] Refresh token (NU4f3F2ccjJjWgH7wLuwUE146R3YcWhzZQYwd9ABzMYsSc0ufSWtIpN1ejdxSkCupDiQATEP1DJjLWWQs8sBbL7eXfZxh0PF41Ms5fScPdrddFHjJxDn3opeCifPUrHMEpiePYbArgGKxdI0Ina5boO22eifHiAHhBNXneOi3n0qiwRRDYCldTa41hDUglSfjUz2ezqzmACCgmWpLKXShw6m4ayfl8QiWpOcbq2fTglcHtgeiysnw4obTMl9dJ1) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
