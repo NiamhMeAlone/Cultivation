@@ -5,16 +5,16 @@ using UnityEngine;
 public class Demographic
 {
 	public string name;
-	public float influence;
-	public string love;
-	public string like;
-	public string dislike;
+	public int influence;
+    public Quality love, like, dislike;
+    public Doctrine favoredDoctrine;
 
-	public Demographic(string aName, float anInfluence, string aLove, string aLike, string aDislike){
+	public Demographic(string aName, int anInfluence, Quality aLove, Quality aLike, Quality aDislike, Doctrine aDoctrine){
 		name = aName;
 		influence = anInfluence;
 		love = aLove;
 		like = aLike;
 		dislike = aDislike;
+        favoredDoctrine = aDoctrine;
 	}
 }

@@ -5,14 +5,12 @@ using UnityEngine;
 public class Doctrine
 {
 	public string name;
-	public float influence;
-	public string counterDoctrine;
-	public string[] favoredDemographics;
+	public int specialization;
+	public Doctrine counterDoctrine;
 
-	public Doctrine(string aName, float anInfluence, string aCounterDoctrine, string[] aFavoredDemographics){
+    public Doctrine(string aName, int anSpecialization, Doctrine aCounterDoctrine){
 		name = aName;
-		influence = anInfluence;
+		specialization = anSpecialization;
 		counterDoctrine = aCounterDoctrine;
-		favoredDemographics = aFavoredDemographics;
 	}
 }

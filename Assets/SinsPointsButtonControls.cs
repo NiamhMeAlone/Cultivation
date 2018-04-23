@@ -4,17 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class SinsPointsButtonControls : MonoBehaviour {
-    public Text pointsDisplay; 
+    public Text pointsDisplay;
+    public string name;
     public int points = 0;
-//    public GameObject plusButton;
-//    public GameObject minusButton;
-	// Use this for initialization
+
 	void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
         pointsDisplay.text = points.ToString();
 	}
     public void AddPoint()
