@@ -246,6 +246,24 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 209471727}
+--- !u!114 &212595380 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114413727743403874, guid: b4d104ca075001a43bef402059aac781,
+    type: 2}
+  m_PrefabInternal: {fileID: 451224633}
+  m_Script: {fileID: 11500000, guid: 2774ce38f9564b1429974927e991ffbd, type: 3}
+--- !u!114 &251389520 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114352442079651178, guid: b4d104ca075001a43bef402059aac781,
+    type: 2}
+  m_PrefabInternal: {fileID: 451224633}
+  m_Script: {fileID: 11500000, guid: 2774ce38f9564b1429974927e991ffbd, type: 3}
+--- !u!114 &350415680 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114408445749634678, guid: b4d104ca075001a43bef402059aac781,
+    type: 2}
+  m_PrefabInternal: {fileID: 451224633}
+  m_Script: {fileID: 11500000, guid: 2774ce38f9564b1429974927e991ffbd, type: 3}
 --- !u!1 &401168202
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,6 +882,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1167636537 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114543589418027896, guid: b4d104ca075001a43bef402059aac781,
+    type: 2}
+  m_PrefabInternal: {fileID: 451224633}
+  m_Script: {fileID: 11500000, guid: 2774ce38f9564b1429974927e991ffbd, type: 3}
 --- !u!1 &1262207901
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,6 +1020,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1404913083 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114071187147213916, guid: b4d104ca075001a43bef402059aac781,
+    type: 2}
+  m_PrefabInternal: {fileID: 451224633}
+  m_Script: {fileID: 11500000, guid: 2774ce38f9564b1429974927e991ffbd, type: 3}
 --- !u!1 &1511236199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,6 +1332,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1800821171}
+--- !u!114 &1935490314 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114986860962730898, guid: b4d104ca075001a43bef402059aac781,
+    type: 2}
+  m_PrefabInternal: {fileID: 451224633}
+  m_Script: {fileID: 11500000, guid: 2774ce38f9564b1429974927e991ffbd, type: 3}
 --- !u!1 &1947966921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,3 +1474,17 @@ MonoBehaviour:
   houseButtonPanel: {fileID: 1262207901}
   doctrinePanel: {fileID: 462976243}
   sinsPanel: {fileID: 451224635}
+  sins:
+  - {fileID: 1167636537}
+  - {fileID: 1935490314}
+  - {fileID: 350415680}
+  - {fileID: 1963866746}
+  - {fileID: 251389520}
+  - {fileID: 1404913083}
+  - {fileID: 212595380}
+--- !u!114 &1963866746 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114470779435665556, guid: b4d104ca075001a43bef402059aac781,
+    type: 2}
+  m_PrefabInternal: {fileID: 451224633}
+  m_Script: {fileID: 11500000, guid: 2774ce38f9564b1429974927e991ffbd, type: 3}
