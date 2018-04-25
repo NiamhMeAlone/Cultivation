@@ -6,9 +6,9 @@ public class Doctrine
 {
 	public string name;
 	public int specialization;
-	public Doctrine counterDoctrine;
+	public string counterDoctrine;
 
-    public Doctrine(string aName, int anSpecialization, Doctrine aCounterDoctrine){
+    public Doctrine(string aName, int anSpecialization, string aCounterDoctrine){
 		name = aName;
 		specialization = anSpecialization;
 		counterDoctrine = aCounterDoctrine;

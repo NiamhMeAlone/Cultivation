@@ -36,4 +36,9 @@ public class Quality : MonoBehaviour
             pointsRemaining++;
         }
     }
+
+    public void ResetPoints()
+    {
+        points = 0;
+    }
 }
