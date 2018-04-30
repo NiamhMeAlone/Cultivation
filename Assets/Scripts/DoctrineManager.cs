@@ -23,18 +23,18 @@ public class DoctrineManager
     public void createDoctrine()
     {
         influenceScalar = Random.Range(50,70);
-        chosenDemos[0] = demoPool[Random.Range(0, 6)];
+        chosenDemos[0] = demoPool[Random.Range(0, 7)];
         demoPool.Remove(chosenDemos[0]);
-        chosenDemos[1] = demoPool[Random.Range(0, 5)];
+        chosenDemos[1] = demoPool[Random.Range(0, 6)];
         demoPool.Remove(chosenDemos[1]);
-        chosenDemos[2] = demoPool[Random.Range(0, 4)];
+        chosenDemos[2] = demoPool[Random.Range(0, 5)];
         demoPool.Remove(chosenDemos[2]);
-        chosenDemos[3] = demoPool[Random.Range(0, 3)];
+        chosenDemos[3] = demoPool[Random.Range(0, 4)];
         demoPool.Remove(chosenDemos[3]);
 
         foreach(Demographic d in chosenDemos)
         {
-            int influenceChange = d.love.points * 2 * influenceScalar + d.like.points * influenceScalar - d.dislike.points * influenceScalar;
+            int influenceChange = d.love.points * 2 * influenceScalar + d.like.points * influenceScalar - d.dislike.points * 1/2 * influenceScalar;
             d.influence += influenceChange;
             if (d.influence < 0)
             {

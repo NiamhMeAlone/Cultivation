@@ -37,11 +37,11 @@ public class CultController : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            foreach (Demographic d in demographics)
+            foreach (Demographic d in controller.demographics)
             {
                 print(d.name + ": " + d.influence);
             }
-            foreach (Doctrine d in doctrines)
+            foreach (Doctrine d in controller.doctrines)
             {
                 print(d.name + ": " + d.specialization);
             }

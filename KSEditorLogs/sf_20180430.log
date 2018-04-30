@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 2018-04-30 12:44:25.7143 [DEBUG] Scene Fusion version 1.7.2-0
 2018-04-30 12:45:11.9740 [DEBUG] Scene Fusion version 1.7.2-0
 2018-04-30 12:45:11.9951 [DEBUG] Play mode: True, sync in play mode: False
@@ -200,3 +201,166 @@
 2018-04-30 14:45:11.0688 [DEBUG] Scene Fusion version 1.7.2-0
 2018-04-30 14:45:11.0879 [DEBUG] Play mode: True, sync in play mode: False
 2018-04-30 14:45:15.7435 [DEBUG] Play mode: False
+=======
+2018-04-30 12:35:41.1210 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:35:45.4764 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:35:55.3869 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:35:55.4070 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:36:24.5379 [DEBUG] Play mode: False
+2018-04-30 12:37:28.8685 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:37:28.8976 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:37:42.1121 [DEBUG] Play mode: False
+2018-04-30 12:44:36.2688 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:44:36.2989 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:44:47.1170 [DEBUG] Play mode: False
+2018-04-30 12:46:32.6910 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:46:32.7121 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:46:36.4814 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+CultController.ResetSins () (at Assets/Scripts/CultController.cs:120)
+CultController.SelectCommandment () (at Assets/Scripts/CultController.cs:107)
+UnityEngine.Events.InvokableCall.Invoke () (at C:/buildslave/unity/build/Runtime/Export/UnityEvent.cs:165)
+UnityEngine.Events.UnityEvent.Invoke () (at C:/buildslave/unity/build/Runtime/Export/UnityEvent_0.cs:58)
+UnityEngine.UI.Button.Press () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:36)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:45)
+UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
+UnityEngine.EventSystems.EventSystem:Update()
+
+2018-04-30 12:46:49.2528 [DEBUG] Play mode: False
+2018-04-30 12:48:11.3297 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:48:11.3569 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:48:22.9949 [DEBUG] Play mode: False
+2018-04-30 12:48:26.7027 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:48:26.7302 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:48:37.2799 [DEBUG] Play mode: False
+2018-04-30 12:48:40.5059 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:48:40.5335 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:48:44.9565 [DEBUG] Play mode: False
+2018-04-30 12:49:45.3775 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:49:45.3986 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:49:50.8693 [DEBUG] Play mode: False
+2018-04-30 12:50:01.7325 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:50:01.7520 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:50:23.5316 [DEBUG] Play mode: False
+2018-04-30 12:51:33.2522 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:51:33.2727 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:52:12.4300 [DEBUG] Play mode: False
+2018-04-30 12:52:22.0109 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:52:22.0470 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:52:30.7465 [DEBUG] Play mode: False
+2018-04-30 12:52:46.5222 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 12:52:46.5763 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 12:53:19.0699 [DEBUG] Play mode: False
+2018-04-30 12:55:44.4535 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 13:06:53.8082 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 13:06:53.8333 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 13:08:58.4052 [DEBUG] Play mode: False
+2018-04-30 13:10:54.1039 [DEBUG] Refresh token (n6fzeyQP0fyqjpUEIpf0XM7XPAeEDoeG3Aa8XLLr8dcmpswMELBdQX6yt3ABMjZeEFTo8JA7lzuMYzFPGQ11hdirxkU0TGdc2ZUGmuEA1NReDEjEDUUBOot5tCXWUZojP6kdLEaIZSiioUCQ5kO3J6H6kXCddzOg415beocIrm0Q5s7giY0rN6K3R6uPEzo7YzdkRmIozpyxKXzsgPNXRUhpZIoOke6xgbZWUthAsMGqLLucmaEZDppbHYjoNsu) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-04-30 13:56:07.7532 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 13:56:09.0216 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 13:56:41.7956 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 13:56:50.2761 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:00:55.8459 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:00:57.1325 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:02:40.4291 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:02:41.7730 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:04:26.0033 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:04:26.0399 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:04:26.7377 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:04:55.1176 [DEBUG] Play mode: False
+2018-04-30 14:06:15.2924 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:06:15.3390 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:06:16.0405 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:10:07.4881 [DEBUG] Play mode: False
+2018-04-30 14:10:15.0889 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:10:15.1164 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:10:15.8208 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:10:24.3198 [DEBUG] Play mode: False
+2018-04-30 14:10:28.1474 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:10:28.1829 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:10:29.1948 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:11:18.5939 [DEBUG] Play mode: False
+2018-04-30 14:11:52.8132 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:11:52.8453 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:11:53.5874 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:12:57.6879 [DEBUG] Play mode: False
+2018-04-30 14:13:28.2048 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:13:28.2304 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:13:28.9963 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:16:01.4119 [DEBUG] Play mode: False
+2018-04-30 14:17:17.9245 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:17:17.9987 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:17:18.8069 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:20:21.7630 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:20:21.7870 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+InfluenceMeter.Update () (at Assets/Scripts/InfluenceMeter.cs:17)
+
+2018-04-30 14:20:21.7880 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+InfluenceMeter.Update () (at Assets/Scripts/InfluenceMeter.cs:17)
+
+2018-04-30 14:20:21.7880 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+InfluenceMeter.Update () (at Assets/Scripts/InfluenceMeter.cs:17)
+
+2018-04-30 14:20:21.7885 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+InfluenceMeter.Update () (at Assets/Scripts/InfluenceMeter.cs:17)
+
+2018-04-30 14:20:21.7895 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+InfluenceMeter.Update () (at Assets/Scripts/InfluenceMeter.cs:17)
+
+2018-04-30 14:20:21.7900 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+InfluenceMeter.Update () (at Assets/Scripts/InfluenceMeter.cs:17)
+
+2018-04-30 14:20:21.7900 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+InfluenceMeter.Update () (at Assets/Scripts/InfluenceMeter.cs:17)
+
+2018-04-30 14:20:22.4583 [DEBUG] Play mode: False
+2018-04-30 14:20:23.0040 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:20:26.0664 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:20:26.1055 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:20:26.9893 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:23:16.0638 [DEBUG] Play mode: False
+2018-04-30 14:23:21.1734 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:23:21.2150 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:23:21.9974 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:23:57.7303 [DEBUG] Play mode: False
+2018-04-30 14:24:27.0571 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:24:27.1118 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:24:27.8647 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:25:46.7890 [DEBUG] Play mode: False
+2018-04-30 14:27:11.4445 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:27:11.4931 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:27:12.2059 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:28:43.0190 [DEBUG] Play mode: False
+2018-04-30 14:28:47.3533 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:28:47.3954 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:28:48.2180 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:29:43.5926 [DEBUG] Play mode: False
+2018-04-30 14:30:59.9790 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:31:01.3102 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:31:13.8074 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:31:13.8540 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:31:14.6151 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:32:03.2305 [DEBUG] Play mode: False
+2018-04-30 14:32:41.8788 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:32:41.9325 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:32:42.7020 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:33:42.7983 [DEBUG] Play mode: False
+2018-04-30 14:33:48.0882 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:33:48.1353 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:33:48.9125 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:34:35.0608 [DEBUG] Play mode: False
+2018-04-30 14:35:49.4801 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:35:49.5633 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:35:50.2886 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:35:59.1159 [DEBUG] Play mode: False
+2018-04-30 14:36:17.8984 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:36:17.9566 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:36:18.7006 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:38:18.4971 [DEBUG] Play mode: False
+2018-04-30 14:40:22.1811 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:40:22.2303 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-30 14:40:22.9791 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+2018-04-30 14:41:25.5641 [DEBUG] Play mode: False
+2018-04-30 14:41:28.4171 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-30 14:41:29.3908 [DEBUG] Refresh token () error: {"err":"Invalid token"}
+>>>>>>> Stashed changes
