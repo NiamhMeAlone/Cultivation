@@ -13,7 +13,8 @@ TrueTypeFontImporter:
   fontName: American Captain
   fontNames:
   - American Captain
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 59fd0d630dfa3d0408bdfa8c22f0733c, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
