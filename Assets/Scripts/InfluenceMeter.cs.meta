@@ -1,19 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream:Assets/Sprites.meta
-<<<<<<< Updated upstream
-guid: d39ef9938681f42c397c001a043619f5
-folderAsset: yes
-timeCreated: 1524690807
-=======
-guid: d90b0257c1486ec489ebf2cafabb79fa
-folderAsset: yes
-timeCreated: 1524675018
->>>>>>> Stashed changes
-=======
-guid: 8b93cf98f27449a49b974aeb01624508
-timeCreated: 1525110961
->>>>>>> Stashed changes:Assets/Scripts/InfluenceMeter.cs.meta
-licenseType: Free
+guid: d7412c3c858dd493bb27930e5f75773a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
