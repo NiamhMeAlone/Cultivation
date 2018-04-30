@@ -40,5 +40,6 @@ public class Quality : MonoBehaviour
     public void ResetPoints()
     {
         points = 0;
+        pointsRemaining = 10;
     }
 }
