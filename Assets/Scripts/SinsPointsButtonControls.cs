@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class SinsPointsButtonControls : MonoBehaviour {
     public Text pointsDisplay;
-    public string name;
     public int points = 0;
 
 	void Start () {

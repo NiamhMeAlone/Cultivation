@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DoctrineManager
 {
@@ -8,10 +9,12 @@ public class DoctrineManager
     private int influenceScalar;
     private Demographic[] chosenDemos;
     private List<Demographic> demoPool;
+    private Text[] reviews;
 
-    public DoctrineManager(Doctrine aSelected, Demographic[] demographics)
+    public DoctrineManager(Doctrine aSelected, Demographic[] demographics, Text[] aReviews)
     {
         selected = aSelected;
+        reviews = aReviews;
         chosenDemos = new Demographic[4];
         demoPool = new List<Demographic>();
         for (int i = 0; i < demographics.Length; i++)
@@ -22,6 +25,7 @@ public class DoctrineManager
 
     public void createDoctrine()
     {
+        CultController.controller.ShowReviewPanel();
         influenceScalar = Random.Range(50,70);
         chosenDemos[0] = demoPool[Random.Range(0, 7)];
         demoPool.Remove(chosenDemos[0]);
@@ -32,18 +36,15 @@ public class DoctrineManager
         chosenDemos[3] = demoPool[Random.Range(0, 4)];
         demoPool.Remove(chosenDemos[3]);
 
-        foreach(Demographic d in chosenDemos)
+        for (int i = 0; i < chosenDemos.Length; i++)
         {
-            int influenceChange = d.love.points * 2 * influenceScalar + d.like.points * influenceScalar - d.dislike.points * 1/2 * influenceScalar;
-            d.influence += influenceChange;
-            if (d.influence < 0)
+            int influenceChange = chosenDemos[i].love.points * 2 * influenceScalar + chosenDemos[i].like.points * influenceScalar - chosenDemos[i].dislike.points * influenceScalar;
+            reviews[i].text = Reviews.GetReview(chosenDemos[i].name, influenceChange);
+            chosenDemos[i].influence += influenceChange;
+            if (chosenDemos[i].favoredDoctrine != null && chosenDemos[i].favoredDoctrine == selected)
             {
-                d.influence = 0;
-            }
-            if (d.favoredDoctrine != null && d.favoredDoctrine == selected)
-            {
-                CultController.controller.DoctrineLookup(CultController.controller.doctrines, selected.name).specialization += influenceChange / 60;
-                CultController.controller.DoctrineLookup(CultController.controller.doctrines, selected.counterDoctrine).specialization -= influenceChange / 60;
+                CultController.controller.DoctrineLookup(CultController.controller.doctrines, selected.name).specialization += influenceChange / 50;
+                CultController.controller.DoctrineLookup(CultController.controller.doctrines, selected.counterDoctrine).specialization -= influenceChange / 50;
             }
             CultController.controller.DoctrineLookup(CultController.controller.doctrines, selected.name).specialization += influenceScalar / 40;
             CultController.controller.DoctrineLookup(CultController.controller.doctrines, selected.counterDoctrine).specialization -= influenceScalar / 40;

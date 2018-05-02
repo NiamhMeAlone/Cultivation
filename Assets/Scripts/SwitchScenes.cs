@@ -5,10 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class SwitchScenes : MonoBehaviour {
     public GameObject harbingerPanel;
+    public GameObject tutorialPanel;
    
 	// Use this for initialization
 	void Start () {
-        harbingerPanel.SetActive(false);
+        if (harbingerPanel != null)
+        {
+            harbingerPanel.SetActive(false);
+        }
+        if (tutorialPanel != null)
+        {
+            tutorialPanel.SetActive(false);
+        }
 	}
 	
 	// Update is called once per frame
@@ -23,9 +31,14 @@ public class SwitchScenes : MonoBehaviour {
     {
         SceneManager.LoadScene("Main");
     }
-    public void DisplayPanel()
+    public void DisplayHarbingerPanel()
     {
+        tutorialPanel.SetActive(false);
         harbingerPanel.SetActive(true);
+    }
+    public void DisplayTutorialPanel()
+    {
+        tutorialPanel.SetActive(true);
     }
     public void ChangeScene(string sceneName)
     {
