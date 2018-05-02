@@ -101,9 +101,9 @@ public class CultController : MonoBehaviour {
         reviewPanel.SetActive(false);
     }
 
-    public void SelectProphecy()
+    public void SelectRevelation()
     {
-        doctrineManager = new DoctrineManager(doctrines[0], demographics, reviews);
+        doctrineManager = new DoctrineManager(doctrines[2], demographics, reviews);
         ResetSins();
         ShowSinsPanel();
         HideDoctrinePanel();
@@ -119,7 +119,7 @@ public class CultController : MonoBehaviour {
 
     public void SelectCommandment()
     {
-        doctrineManager = new DoctrineManager(doctrines[2], demographics, reviews);
+        doctrineManager = new DoctrineManager(doctrines[0], demographics, reviews);
         ResetSins();
         ShowSinsPanel();
         HideDoctrinePanel();
