@@ -12,11 +12,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 93d40f961542a1243bea8db16e54f8ff
   - enabled: 1
-    path: Assets/Scenes/High Commandment.unity
-    guid: 90563f87360bd4a43865098716cc765b
+    path: Assets/Scenes/Endings/HighCommandment.unity
+    guid: 2ba38f35dab374f438358f3fcf043208
   - enabled: 1
-    path: Assets/Scenes/High Premonition.unity
-    guid: 3d4a4dd133ec741448338f48acacfb53
+    path: Assets/Scenes/Endings/HighPremonition.unity
+    guid: a32a13eb0ed8e40228cfb43db29f0782
   - enabled: 1
-    path: Assets/Scenes/High Revolation.unity
-    guid: 448f577eca0b44b64b3bf0a633a19253
+    path: Assets/Scenes/Endings/HighRevelation.unity
+    guid: 96d5d006b180841b8895264df034d777
+  - enabled: 1
+    path: Assets/Scenes/Endings/LowCommandment.unity
+    guid: 0878d9aa3fb7de14cb9dad481917d9e2
+  - enabled: 1
+    path: Assets/Scenes/Endings/LowPremonition.unity
+    guid: b19b05c9210b2674e87031759957e856
+  - enabled: 1
+    path: Assets/Scenes/Endings/LowRevelation.unity
+    guid: 89a0f341d630c0e469f32309e75c4e71
+  - enabled: 1
+    path: Assets/Scenes/Endings/YouWin.unity
+    guid: 670f480c25b986548b3521480f10b33d
