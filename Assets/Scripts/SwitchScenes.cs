@@ -4,19 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SwitchScenes : MonoBehaviour {
-    public GameObject harbingerPanel;
-    public GameObject tutorialPanel;
    
 	// Use this for initialization
 	void Start () {
-        if (harbingerPanel != null)
-        {
-            harbingerPanel.SetActive(false);
-        }
-        if (tutorialPanel != null)
-        {
-            tutorialPanel.SetActive(false);
-        }
+        
 	}
 	
 	// Update is called once per frame
@@ -29,17 +20,38 @@ public class SwitchScenes : MonoBehaviour {
     }
     public void ToMain()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("DetmarsonTestScene");
     }
-    public void DisplayHarbingerPanel()
+    public void SelectCat()
     {
-        tutorialPanel.SetActive(false);
-        harbingerPanel.SetActive(true);
+        CultController.controller.harbinger = "Cat'thulu";
+        ToMain();
     }
-    public void DisplayTutorialPanel()
+
+    public void SelectSuzy()
     {
-        tutorialPanel.SetActive(true);
+        CultController.controller.harbinger = "Little Suzy";
+        ToMain();
     }
+
+    public void SelectTop()
+    {
+        CultController.controller.harbinger = "The Great Big Top";
+        ToMain();
+    }
+
+    public void SelectCherub()
+    {
+        CultController.controller.harbinger = "Beelzebaby";
+        ToMain();
+    }
+
+    public void SelectHand()
+    {
+        CultController.controller.harbinger = "Big Hand";
+        ToMain();
+    }
+    
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);

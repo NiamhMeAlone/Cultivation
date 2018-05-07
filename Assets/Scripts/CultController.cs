@@ -12,9 +12,9 @@ public class CultController : MonoBehaviour {
     public Doctrine[] doctrines;
     public Text[] reviews;
     public InfluenceMeter[] meters;
-    public static CultController controller;
+    public string harbinger;
+    public static CultController controller = new CultController();
     public static DoctrineManager doctrineManager;
-    
 
     void Start()
     {
@@ -27,15 +27,18 @@ public class CultController : MonoBehaviour {
         doctrines[1] = new Doctrine("Premonition", 50, "Commandment");
         doctrines[2] = new Doctrine("Revelation", 50, "Premonition");
         demographics = new Demographic[7];
-        demographics[0] = new Demographic("Farmers", 0, gluttony, greed, wrath, null);
-        demographics[1] = new Demographic("Teens", 0, lust, sloth, pride, doctrines[0]);
-        demographics[2] = new Demographic("Parents", 0, envy, wrath, sloth, doctrines[2]);
-        demographics[3] = new Demographic("Elders", 0, pride, gluttony, lust, doctrines[1]);
-        demographics[4] = new Demographic("Brewers", 0, sloth, envy, greed, doctrines[0]);
-        demographics[5] = new Demographic("Politicians", 0, greed, pride, gluttony, doctrines[2]);
-        demographics[6] = new Demographic("Preppers", 0, wrath, lust, envy, doctrines[1]);
+        demographics[0] = new Demographic("Maize Farmers", 0, gluttony, greed, wrath, null);
+        demographics[1] = new Demographic("Rowdy Teens", 0, lust, sloth, pride, doctrines[2]);
+        demographics[2] = new Demographic("Busy Parents", 0, envy, wrath, sloth, doctrines[0]);
+        demographics[3] = new Demographic("Haughty Elders", 0, pride, gluttony, lust, doctrines[1]);
+        demographics[4] = new Demographic("Microbrewers", 0, sloth, envy, greed, doctrines[2]);
+        demographics[5] = new Demographic("Alt-right Politicians", 0, greed, pride, gluttony, doctrines[0]);
+        demographics[6] = new Demographic("Doomsday Preppers", 0, wrath, lust, envy, doctrines[1]);
         doctrineManager = new DoctrineManager(doctrines[0], demographics, reviews);
+        harbinger = controller.harbinger;
         controller = this;
+        Reviews.GenerateReviews();
+        Reviews.SetReviews(harbinger);
     }
 
     void Update ()
@@ -182,17 +185,4 @@ public class CultController : MonoBehaviour {
         }
         return null;
     }
-    /*
-    public Quality QualityLookup(Quality[] list, string name)
-    {
-        for (int i = 0;  i < list.Length; i++)
-        {
-            if (list[i].name.Equals(name))
-            {
-                return list[i];
-            }
-        }
-        return null;
-    }
-    */
 }

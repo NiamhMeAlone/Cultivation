@@ -6,9 +6,10 @@ using UnityEngine.UI;
 public class Quality : MonoBehaviour
 {
     public Text pointsDisplay;
+    public Text pointsRemainingDisplay;
     public string sin;
     public int points = 0;
-    public static int pointsRemaining = 10;
+    public static int pointsRemaining = 5;
 
     void Start()
     {
@@ -19,6 +20,7 @@ public class Quality : MonoBehaviour
     void Update()
     {
         pointsDisplay.text = points.ToString();
+        pointsRemainingDisplay.text = "Points Remaining: " + pointsRemaining;
     }
     public void AddPoint()
     {
@@ -40,6 +42,6 @@ public class Quality : MonoBehaviour
     public void ResetPoints()
     {
         points = 0;
-        pointsRemaining = 10;
+        pointsRemaining = 5;
     }
 }

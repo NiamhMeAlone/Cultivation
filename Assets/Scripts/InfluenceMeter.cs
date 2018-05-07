@@ -28,7 +28,7 @@ public class InfluenceMeter : MonoBehaviour {
             {
                 CultController.controller.demographics[demoIndex].influence = 0;
             }
-            else if (CultController.controller.demographics[demoIndex].influence >= maxInfluence)
+            else if (Mathf.Floor((((float)CultController.controller.demographics[demoIndex].influence) / ((float)maxInfluence)) * 100f) >= 100f)
             {
                 locked = true;
             }
