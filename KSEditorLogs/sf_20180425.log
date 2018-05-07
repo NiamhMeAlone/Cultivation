@@ -16,6 +16,7 @@
 2018-04-25 12:51:52.8824 [DEBUG] Play mode: True, sync in play mode: False
 2018-04-25 12:52:01.0195 [DEBUG] Play mode: False
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 2018-04-25 13:01:09.5403 [DEBUG] Scene Fusion version 1.7.2-0
 2018-04-25 13:01:09.5624 [DEBUG] Play mode: True, sync in play mode: False
 2018-04-25 13:01:16.0610 [DEBUG] Play mode: False
@@ -246,4 +247,17 @@ UnityEngine.EventSystems.EventSystem:Update()
 2018-04-25 15:10:31.6285 [DEBUG] Play mode: False
 2018-04-25 15:11:32.7950 [DEBUG] Scene Fusion version 1.7.2-0
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 2018-04-25 15:19:03.9308 [DEBUG] Scene Fusion version 1.7.2-0
+=======
+=======
+2018-04-25 12:55:10.6134 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-25 12:55:39.3969 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-25 12:55:39.4290 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-25 12:56:01.7313 [DEBUG] Play mode: False
+2018-04-25 12:57:58.3684 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-25 12:57:58.4054 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-25 12:58:28.8918 [DEBUG] Play mode: False
+>>>>>>> Stashed changes
+2018-04-25 17:13:31.8639 [DEBUG] Scene Fusion version 1.7.2-0
+>>>>>>> Stashed changes

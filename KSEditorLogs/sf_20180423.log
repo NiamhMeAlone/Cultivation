@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 2018-04-23 12:48:14.0763 [DEBUG] Scene Fusion version 1.7.2-0
 2018-04-23 12:52:04.4180 [DEBUG] Scene Fusion version 1.7.2-0
 2018-04-23 13:00:05.8184 [DEBUG] Refresh token (xsapqFCUdRSeid94mTMYpOkZiy4XnH2AOp0A8MNNaHnpPzruNDNmS0LXeahzgRueffds4XoExL9wCfNSbmhp12akjdaPO8dR2iEmuxgQxImUdWtUcIMx2KrJ3UQxbAOqEJFWxaebW2PsF6pstxmzlFJBJYHZ7bSTDNy6pJPsOepewiHIDjcPuB12GRhpmPiDHupuwoTZubUSsBIlbdc0AYeGO06dDDHzlfDB4qtj1Q2BT0B5zTNjFSbWdjExdik) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
@@ -47,3 +48,13 @@
 2018-04-23 14:47:50.9418 [DEBUG] Scene Fusion version 1.7.2-0
 2018-04-23 14:48:24.5275 [DEBUG] Scene Fusion version 1.7.2-0
 2018-04-23 14:54:25.6011 [DEBUG] Refresh token (X4kD5moFL91mBjHwOOFHqNclwKGay4pkNb204sFd8AQxkboQ5jUPexnMkUnGaxOYjgPE3Q3mCdri9zzSFjnDTu3Mumb4B5BS0p2Q9D5H87IlgyPPP6KOYlM0MRFqyfr5gQL7heWE9dQGYWByeZGNiWceJ23tGXnQFCL7dCa5c6sGt77ZBp8hhrZjOdUrik8zetRgGdCjgN4nIZhfskponQ8NoW62lh2CLu5gzuuKhGErtX69AmZxwgK5mEGJo0G) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+=======
+2018-04-23 12:39:37.3445 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-23 12:39:40.9134 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-23 12:39:45.5551 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-23 12:39:45.5894 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-23 12:40:00.1256 [DEBUG] Play mode: False
+2018-04-23 12:40:47.1763 [DEBUG] Scene Fusion version 1.7.2-0
+2018-04-23 12:40:47.2108 [DEBUG] Play mode: True, sync in play mode: False
+2018-04-23 12:41:13.7547 [DEBUG] Play mode: False
+>>>>>>> Stashed changes
