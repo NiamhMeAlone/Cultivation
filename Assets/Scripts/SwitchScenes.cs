@@ -36,7 +36,7 @@ public class SwitchScenes : MonoBehaviour {
 
     public void SelectTop()
     {
-        CultController.controller.harbinger = "The Great Big Top";
+        CultController.controller.harbinger = "Axis of Evil";
         ToMain();
     }
 
