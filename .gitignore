@@ -13,9 +13,7 @@
 *.userprefs
 *.pidb
 *.booproj
-*.meta
 *.log
-*.ide
 
 # Unity3D generated meta files
 *.pidb.meta
