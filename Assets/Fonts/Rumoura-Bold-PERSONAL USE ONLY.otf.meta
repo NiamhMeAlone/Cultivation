@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 3d7bb96d2a47c084ebfc5cac969d8547
+timeCreated: 1525819498
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Rumoura PERSONAL USE ONLY
+  fontNames:
+  - Rumoura PERSONAL USE ONLY
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
